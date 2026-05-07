@@ -13,7 +13,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Aurum Jewel House",
+  title: "Bhargav Jewellery (Gold & Co.)",
   description: "Elegant handcrafted jewellery collections for your special moments.",
 };
 

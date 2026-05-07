@@ -9,13 +9,17 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        pearl: "#F7F4EE",
-        rosegold: "#B67B5F",
-        deepcharcoal: "#1C1A1A",
+        ivory: "#FBF8F1",
+        pearl: "#F4EEE3",
+        gold: "#B88A4A",
+        rose: "#B86F63",
+        bronze: "#8F6653",
+        ink: "#1B1715",
         champagne: "#E8D8BA",
       },
       boxShadow: {
-        halo: "0 20px 60px -30px rgba(182, 123, 95, 0.6)",
+        halo: "0 20px 60px -30px rgba(184, 138, 74, 0.55)",
+        soft: "0 18px 40px -24px rgba(27, 23, 21, 0.28)",
       },
     },
   },

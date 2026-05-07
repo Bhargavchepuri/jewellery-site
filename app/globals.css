@@ -3,19 +3,20 @@
 @tailwind utilities;
 
 :root {
-  --ink: #1c1a1a;
-  --cream: #f7f4ee;
-  --gold: #b67b5f;
+  --ink: #1b1715;
+  --cream: #fbf8f1;
+  --gold: #b88a4a;
 }
 
 body {
   color: var(--ink);
   background:
-    radial-gradient(circle at 10% 10%, rgba(232, 216, 186, 0.4), transparent 40%),
-    radial-gradient(circle at 90% 80%, rgba(182, 123, 95, 0.2), transparent 35%),
+    radial-gradient(circle at 12% 14%, rgba(232, 216, 186, 0.45), transparent 38%),
+    radial-gradient(circle at 88% 82%, rgba(184, 138, 74, 0.22), transparent 34%),
     var(--cream);
+  font-family: var(--font-manrope), Arial, sans-serif;
 }
 
 .glow-ring {
-  box-shadow: 0 0 0 1px rgba(182, 123, 95, 0.25), 0 20px 60px -30px rgba(182, 123, 95, 0.7);
+  box-shadow: 0 0 0 1px rgba(184, 138, 74, 0.25), 0 20px 60px -30px rgba(184, 138, 74, 0.7);
 }
